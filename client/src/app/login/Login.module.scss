@@ -1,0 +1,40 @@
+
+@use '../variables' as *;
+
+.sectionLogin {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.sideLogo {
+  width: 35%;
+  padding: 2.5rem;
+  height: 100vh;
+  background-color: $blue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .logoImg {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+    color: $white;
+  }
+
+  strong {
+    color: $lightBlue;
+  }
+}
+
+.sideLogin {
+  width: 65%;
+  padding: 2rem;
+  height: 100vh;
+}
